@@ -1,0 +1,55 @@
+body {
+  background: url(birdsfly.jpg);
+}
+
+
+h1{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textcolor{
+  color: white;
+  font-family: Times, Helvetica, sans-serif;
+}
+
+
+#title {
+  font-family: Times, Helvetica, sans-serif;
+}
+
+.dropbtn {
+  background-color: DarkSlateBlue;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: left;
+  text-align: center;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: green;
+  min-width: 160px;
+  box-shadow: none
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color:#008b84;}
+
+.dropdown:hover .dropdown-content {display:block;}
+
+.dropdown:hover .dropbtn {background-color:#008b84;}
